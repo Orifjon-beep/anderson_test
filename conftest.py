@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import pytest
 
 
@@ -7,7 +8,9 @@ import pytest
 
 @pytest.fixture()
 def browser():
-    browser = webdriver.Chrome()
+    options = Options()
+    options.add_argument('--headless')
+    browser = webdriver.Chrome(options=options)
     browser.implicitly_wait(5)
     yield browser
     browser.close()
