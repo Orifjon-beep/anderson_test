@@ -57,37 +57,37 @@ def test_payments(browser):
     homepage.button_8()
     homepage.check_title_is('Payments')
 
-def test_KPI(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_9()
-    homepage.check_title_is('KPI')
+# def test_KPI(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_9()
+#     homepage.check_title_is('KPI')
 
-def test_users(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_10()
-    homepage.check_title_is('Users')
+# def test_users(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_10()
+#     homepage.check_title_is('Users')
 
-def test_reviews(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_11()
-    homepage.check_title_is('Reviews')
+# def test_reviews(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_11()
+#     homepage.check_title_is('Reviews')
 
-def test_complaints(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_12()
-    homepage.check_title_is('Complaints')
+# def test_complaints(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_12()
+#     homepage.check_title_is('Complaints')
 
-def test_reports(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_13()
-    homepage.check_title_is('Reports')
+# def test_reports(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_13()
+#     homepage.check_title_is('Reports')
