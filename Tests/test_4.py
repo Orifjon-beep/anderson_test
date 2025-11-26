@@ -9,12 +9,12 @@ def test_universal_management(browser):
     homepage.button()
     homepage.check_title_is('Universal management')
     
-# def test_clien_contracts(browser):
-#     homepage = HomePage(browser)
-#     homepage.open()
-#     homepage.sumbit()
-#     homepage.button_2()
-#     homepage.check_title_is('Client & Contracts')
+def test_clien_contracts(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_2()
+    homepage.check_title_is('Client & Contracts')
 
 # def test_contracts(browser):
 #     homepage = HomePage(browser)
