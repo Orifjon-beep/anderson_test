@@ -50,12 +50,12 @@ def test_bills(browser):
     homepage.button_7()
     homepage.check_title_is('Bills')
 
-# def test_payments(browser):
-#     homepage = HomePage(browser)
-#     homepage.open()
-#     homepage.sumbit()
-#     homepage.button_8()
-#     homepage.check_title_is('Payments')
+def test_payments(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_8()
+    homepage.check_title_is('Payments')
 
 # def test_KPI(browser):
 #     homepage = HomePage(browser)
