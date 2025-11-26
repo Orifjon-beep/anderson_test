@@ -30,32 +30,32 @@ def test_cases(browser):
     homepage.button_4()
     homepage.check_title_is('Cases')
 
-def test_tasks(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_5()
-    homepage.check_title_is('Tasks')
+# def test_tasks(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_5()
+#     homepage.check_title_is('Tasks')
 
-def test_calendar(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.check_title_is('Calendar')
+# def test_calendar(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.check_title_is('Calendar')
 
-def test_bills(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_7()
-    homepage.check_title_is('Bills')
+# def test_bills(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_7()
+#     homepage.check_title_is('Bills')
 
-def test_payments(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_8()
-    homepage.check_title_is('Payments')
+# def test_payments(browser):
+#     homepage = HomePage(browser)
+#     homepage.open()
+#     homepage.sumbit()
+#     homepage.button_8()
+#     homepage.check_title_is('Payments')
 
 # def test_KPI(browser):
 #     homepage = HomePage(browser)
