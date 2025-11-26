@@ -64,12 +64,12 @@ def test_KPI(browser):
     homepage.button_9()
     homepage.check_title_is('KPI')
 
-# def test_users(browser):
-#     homepage = HomePage(browser)
-#     homepage.open()
-#     homepage.sumbit()
-#     homepage.button_10()
-#     homepage.check_title_is('Users')
+def test_users(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_10()
+    homepage.check_title_is('Users')
 
 # def test_reviews(browser):
 #     homepage = HomePage(browser)
