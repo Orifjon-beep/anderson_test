@@ -15,7 +15,7 @@ on:
 
 jobs:
   run-test:
-    runs-on: ubuntu-anderson-test
+    runs-on: ubuntu-latest
     name: Tests
     steps:
       - name: Source code
