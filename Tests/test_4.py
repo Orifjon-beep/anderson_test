@@ -57,12 +57,12 @@ def test_payments(browser):
     homepage.button_8()
     homepage.check_title_is('Payments')
 
-# def test_KPI(browser):
-#     homepage = HomePage(browser)
-#     homepage.open()
-#     homepage.sumbit()
-#     homepage.button_9()
-#     homepage.check_title_is('KPI')
+def test_KPI(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_9()
+    homepage.check_title_is('KPI')
 
 # def test_users(browser):
 #     homepage = HomePage(browser)
