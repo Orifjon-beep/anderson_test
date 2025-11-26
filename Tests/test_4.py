@@ -37,11 +37,11 @@ def test_tasks(browser):
     homepage.button_5()
     homepage.check_title_is('Tasks')
 
-# def test_calendar(browser):
-#     homepage = HomePage(browser)
-#     homepage.open()
-#     homepage.sumbit()
-#     homepage.check_title_is('Calendar')
+def test_calendar(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.check_title_is('Calendar')
 
 # def test_bills(browser):
 #     homepage = HomePage(browser)
