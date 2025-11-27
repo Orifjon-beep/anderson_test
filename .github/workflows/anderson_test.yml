@@ -8,10 +8,10 @@ on:
         description: select tests on run
         required: true
         type: choice
-        default: universal
+        default: test_1
         options:
-          - universal
-          - clien
+          - test_1
+          - test_2
 
 
 jobs:
@@ -29,9 +29,9 @@ jobs:
         run: sudo apt-get install google-chrome-stable
       - name: install dependencies
         run: pip install -r requirements.txt
-      - name: universal
-        if: "github.event.inputs.deplment_target == 'universal'"
+      - name: test_1
+        if: "github.event.inputs.deplment_target == 'test_1'"
         run: pytest -v Tests/test_4.py::test_universal_management
-      - name: clien
-        if: "github.event.inputs.deplment_target == 'clien'"
+      - name: test_2
+        if: "github.event.inputs.deplment_target == 'test_2'"
         run: pytest -v Tests/test_4.py::test_clien_contracts
