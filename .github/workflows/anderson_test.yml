@@ -30,7 +30,7 @@ jobs:
       - name: install dependencies
         run: pip install -r requirements.txt
       - name: test_1
-        if: "github.event.inputs.deplment_target == 'test_1'"
+        if: "github.event.inputs.deplment_target == test_1"
         run: pytest 
       - name: test_2
         if: "github.event.inputs.deplment_target == 'test_2'"
