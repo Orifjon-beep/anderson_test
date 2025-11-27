@@ -71,19 +71,19 @@ from pages.homepage import HomePage
 #     homepage.button_10()
 #     homepage.check_title_is('Users')
 
-def test_reviews(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_11()
-    homepage.check_title_is('Reviews')
-
-# def test_complaints(browser):
+# def test_reviews(browser):
 #     homepage = HomePage(browser)
 #     homepage.open()
 #     homepage.sumbit()
-#     homepage.button_12()
-#     homepage.check_title_is('Complaints')
+#     homepage.button_11()
+#     homepage.check_title_is('Reviews')
+
+def test_complaints(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_12()
+    homepage.check_title_is('Complaints')
 
 # def test_reports(browser):
 #     homepage = HomePage(browser)
