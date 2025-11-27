@@ -30,8 +30,21 @@ jobs:
       - name: install dependencies
         run: pip install -r requirements.txt
       - name: test_1
-        if: "github.event.inputs.deplment_target == test_1"
-        run: pytest 
+        if: "github.event.inputs.deplment_target == 'test_1'"
+        run: pytest -v
+          Tests/test_4.py::test_universal_management
+          Tests/test_4.py::test_clien_contracts
+          Tests/test_4.py::test_contracts
+          Tests/test_4.py::test_cases
+          Tests/test_4.py::test_tasks
+          Tests/test_4.py::test_calendar
+          Tests/test_4.py::test_bills
+          Tests/test_4.py::test_payments
+          Tests/test_4.py::test_KPI
+          Tests/test_4.py::test_users
+          Tests/test_4.py::test_review
+          Tests/test_4.py::test_complaints
+          Tests/test_4.py::test_reports
       - name: test_2
         if: "github.event.inputs.deplment_target == 'test_2'"
         run: pytest -v Tests/test_4.py::test_clien_contracts
