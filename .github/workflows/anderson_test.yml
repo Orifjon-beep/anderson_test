@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: test_1
         if: "github.event.inputs.deplment_target == 'test_1'"
-        run: pytest -v Tests/test_4.py::test_universal_management
+        run: pytest -v 
       - name: test_2
         if: "github.event.inputs.deplment_target == 'test_2'"
         run: pytest -v Tests/test_4.py::test_clien_contracts
