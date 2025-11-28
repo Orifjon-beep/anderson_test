@@ -23,19 +23,19 @@ from pages.homepage import HomePage
 #     homepage.button_3()
 #     homepage.check_title_is('Contracts')
 
-def test_cases(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_4()
-    homepage.check_title_is('Cases')
-
-# def test_tasks(browser):
+# def test_cases(browser):
 #     homepage = HomePage(browser)
 #     homepage.open()
 #     homepage.sumbit()
-#     homepage.button_5()
-#     homepage.check_title_is('Tasks')
+#     homepage.button_4()
+#     homepage.check_title_is('Cases')
+
+def test_tasks(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_5()
+    homepage.check_title_is('Tasks')
 
 # def test_calendar(browser):
 #     homepage = HomePage(browser)
