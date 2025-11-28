@@ -57,19 +57,19 @@ from pages.homepage import HomePage
 #     homepage.button_8()
 #     homepage.check_title_is('Payments')
 
-def test_KPI(browser):
-    homepage = HomePage(browser)
-    homepage.open()
-    homepage.sumbit()
-    homepage.button_9()
-    homepage.check_title_is('KPI')
-
-# def test_users(browser):
+# def test_KPI(browser):
 #     homepage = HomePage(browser)
 #     homepage.open()
 #     homepage.sumbit()
-#     homepage.button_10()
-#     homepage.check_title_is('Users')
+#     homepage.button_9()
+#     homepage.check_title_is('KPI')
+
+def test_users(browser):
+    homepage = HomePage(browser)
+    homepage.open()
+    homepage.sumbit()
+    homepage.button_10()
+    homepage.check_title_is('Users')
 
 # def test_reviews(browser):
 #     homepage = HomePage(browser)
